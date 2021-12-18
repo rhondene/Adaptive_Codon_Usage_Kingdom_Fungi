@@ -1,6 +1,6 @@
 #Author: Rhondene Wint (rwint@ucmerced.edu)
 
-Purpose: Computes relative synonymous codon usage of each 59 degenerate codons per each coding sequence (CDS)
+Purpose: Computes relative synonymous codon usage of each 59 degenerate codons per each coding sequence (CDS) 
             according to Sharp and Li, 1986
 ******************************************************************************************************
 How to Use :
@@ -9,3 +9,7 @@ How to Use :
 2. download and unzipped the Compute_RSCU_gene folder from github repo into your working folder.
 3. Open a terminal window (bash, gitbash, powershell, etc) in the same working folder
 4. Run the command: 'python ./Compute_RSCU_gene --help'  for how to add arguments.
+5. Example:   'python ./Compute_RSCU_gene -CDS all_CDS.fasta -out all_CDS '
+
+end
+
