@@ -1,6 +1,6 @@
 #Author: Rhondene Wint (rwint@ucmerced.edu)
 
-Purpose: Computes relative synonymous codon usage of each 61 sense codons over the set of coding sequnces (CDS)/transcriptome:
+Purpose: Computes relative synonymous codon usage of each 59 sense codons over the set of coding sequnces (CDS)/transcriptome:
             according to Sharp and Li, 1986
 ******************************************************************************************************
 How to Use :
@@ -9,3 +9,4 @@ How to Use :
 2. download and unzipped the Compute_RSCU_tw folder from github repo into your working folder.
 3. Open a terminal window (bash, gitbash, powershell, etc) in the same working folder
 4. Run the command: 'python ./Compute_RSCU_tw --help'  for how to add arguments.
+Example:  'python ./Compute_RSCU_tw -CDS all_CDS.fasta -out all_CDS
